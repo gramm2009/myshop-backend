@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "MyShop.Controllers.ProductsController",
+    "Method": "GetProduct",
+    "RelativePath": "api/product/getProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

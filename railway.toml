@@ -2,7 +2,7 @@
 builder = "nixpacks"
 
 [build.environment]
-DOTNET_VERSION = "8.0"
+DOTNET_VERSION = "8.0.100"
 
 [deploy]
 startCommand = "dotnet MyShop.dll"

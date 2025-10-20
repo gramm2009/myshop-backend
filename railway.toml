@@ -1,0 +1,8 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "dotnet MyShop.dll"
+
+[[services]]
+port = 8080

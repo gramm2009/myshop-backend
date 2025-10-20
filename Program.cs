@@ -63,11 +63,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
+app.MapGet("/", () => "MyShop Backend API is running!");
 app.MapControllers();
-app.MapGet("/", () => new {
-    message = "MyShop API is running!",
-    status = "OK",
-    time = DateTime.UtcNow
-});
 
 app.Run();
